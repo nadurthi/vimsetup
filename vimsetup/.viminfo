@@ -15,13 +15,9 @@
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1542515260,,"q"
+|2,0,1541873970,,"q"
 :wq
-|2,0,1542515209,,"wq"
-:q!
-|2,0,1542488222,,"q!"
-:PlugInstall
-|2,0,1541878626,,"PlugInstall"
+|2,0,1541233448,,"wq"
 :w
 |2,0,1539414580,,"w"
 :tablast
@@ -38,8 +34,12 @@
 |2,0,1539414123,,"tabr"
 :gn
 |2,0,1539414101,,"gn"
+:q!
+|2,0,1539413869,,"q!"
 :v
 |2,0,1539413755,,"v"
+:PlugInstall
+|2,0,1539413535,,"PlugInstall"
 :source %
 |2,0,1539413191,,"source %"
 :e get
@@ -60,343 +60,250 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""-	CHAR	0
-	a
-|3,1,36,0,1,0,1541879622,"a"
 
 # File marks:
-'0  48  34  ~/.zshrc
-|4,48,48,34,1542515260,"~/.zshrc"
-'1  10  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,49,10,0,1542515209,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
-'2  11  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,50,11,0,1542515209,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
-'3  4  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,51,4,0,1542514835,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
-'4  5  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,52,5,0,1542514835,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
-'5  5  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,53,5,0,1542514835,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
-'6  6  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,54,6,0,1542514835,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
-'7  2  24  /etc/hosts
-|4,55,2,24,1542514794,"/etc/hosts"
-'8  2  24  /etc/hosts
-|4,56,2,24,1542514794,"/etc/hosts"
-'9  1  0  /etc/hostname
-|4,57,1,0,1542488587,"/etc/hostname"
+'0  32  9  ~/NERD_tree_1
+|4,48,32,9,1541873970,"~/NERD_tree_1"
+'1  6  0  ~/Downloads/roverhub/NERD_tree_1
+|4,49,6,0,1541233448,"~/Downloads/roverhub/NERD_tree_1"
+'2  8  6  ~/GoogleDrive/repos/roscamhub/NERD_tree_1
+|4,50,8,6,1541210024,"~/GoogleDrive/repos/roscamhub/NERD_tree_1"
+'3  1  6  ~/NERD_tree_1
+|4,51,1,6,1539414592,"~/NERD_tree_1"
+'4  29  6  ~/NERD_tree_1
+|4,52,29,6,1539414592,"~/NERD_tree_1"
+'5  1  13  ~/NERD_tree_1
+|4,53,1,13,1539413945,"~/NERD_tree_1"
+'6  1  13  ~/NERD_tree_1
+|4,54,1,13,1539413945,"~/NERD_tree_1"
+'7  1  13  ~/NERD_tree_1
+|4,55,1,13,1539413945,"~/NERD_tree_1"
+'8  34  13  ~/NERD_tree_1
+|4,56,34,13,1539413945,"~/NERD_tree_1"
+'9  205  0  ~/.vimrc
+|4,57,205,0,1539413869,"~/.vimrc"
 
 # Jumplist (newest first):
--'  48  34  ~/.zshrc
-|4,39,48,34,1542515260,"~/.zshrc"
--'  10  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,10,0,1542515209,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  11  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,11,0,1542515209,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  13  2  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,13,2,1542515182,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,1,0,1542515182,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  14  2  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,14,2,1542515182,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,1,0,1542515182,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  5  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,5,0,1542514835,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  6  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,6,0,1542514835,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  14  2  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,14,2,1542514815,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,1,0,1542514815,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  2  24  /etc/hosts
-|4,39,2,24,1542514794,"/etc/hosts"
--'  2  24  /etc/hosts
-|4,39,2,24,1542514794,"/etc/hosts"
--'  1  0  /etc/hostname
-|4,39,1,0,1542488587,"/etc/hostname"
--'  1  0  /etc/hostname
-|4,39,1,0,1542488587,"/etc/hostname"
--'  1  0  /etc/hostname
-|4,39,1,0,1542488587,"/etc/hostname"
--'  1  0  /etc/hostname
-|4,39,1,0,1542488587,"/etc/hostname"
--'  3  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,3,0,1542488480,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  4  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,4,0,1542488480,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  4  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,4,0,1542488480,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  5  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,5,0,1542488480,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  5  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,5,0,1542488480,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  6  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,6,0,1542488480,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  11  2  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,11,2,1542488469,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  12  2  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,12,2,1542488469,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  11  2  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,11,2,1542488469,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,1,0,1542488469,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  12  2  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,12,2,1542488469,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  12  2  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,12,2,1542488469,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,1,0,1542488469,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  13  2  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,13,2,1542488469,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,1,0,1542488469,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  6  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,6,0,1542488466,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  13  2  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,13,2,1542488438,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,1,0,1542488438,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  6  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,6,0,1542488424,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  13  2  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,13,2,1542488391,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,1,0,1542488391,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  7  0  /etc/hosts
-|4,39,7,0,1542488222,"/etc/hosts"
--'  7  0  /etc/hosts
-|4,39,7,0,1542488222,"/etc/hosts"
--'  7  0  /etc/hosts
-|4,39,7,0,1542488222,"/etc/hosts"
--'  7  0  /etc/hosts
-|4,39,7,0,1542488222,"/etc/hosts"
--'  7  0  /etc/hosts
-|4,39,7,0,1542488222,"/etc/hosts"
--'  7  0  /etc/hosts
-|4,39,7,0,1542488222,"/etc/hosts"
--'  6  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,6,0,1542488217,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  13  2  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,13,2,1542488177,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-|4,39,1,0,1542488177,"~/GoogleDrive/repos/ros_roverbot/NERD_tree_1"
--'  6  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,6,0,1542350103,"~/GoogleDrive/repos/NERD_tree_1"
--'  6  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,6,0,1542350103,"~/GoogleDrive/repos/NERD_tree_1"
--'  6  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,6,0,1542350103,"~/GoogleDrive/repos/NERD_tree_1"
--'  6  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,6,0,1542350103,"~/GoogleDrive/repos/NERD_tree_1"
--'  6  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,6,0,1542350103,"~/GoogleDrive/repos/NERD_tree_1"
--'  6  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,6,0,1542350103,"~/GoogleDrive/repos/NERD_tree_1"
--'  6  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,6,0,1542350103,"~/GoogleDrive/repos/NERD_tree_1"
--'  6  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,6,0,1542350103,"~/GoogleDrive/repos/NERD_tree_1"
--'  45  2  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,45,2,1542350056,"~/GoogleDrive/repos/NERD_tree_1"
--'  45  2  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,45,2,1542350056,"~/GoogleDrive/repos/NERD_tree_1"
--'  45  2  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,45,2,1542350056,"~/GoogleDrive/repos/NERD_tree_1"
--'  45  2  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,45,2,1542350056,"~/GoogleDrive/repos/NERD_tree_1"
--'  45  2  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,45,2,1542350056,"~/GoogleDrive/repos/NERD_tree_1"
--'  45  2  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,45,2,1542350056,"~/GoogleDrive/repos/NERD_tree_1"
--'  45  2  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,45,2,1542350056,"~/GoogleDrive/repos/NERD_tree_1"
--'  45  2  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,45,2,1542350056,"~/GoogleDrive/repos/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,1,0,1542350055,"~/GoogleDrive/repos/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,1,0,1542350055,"~/GoogleDrive/repos/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,1,0,1542350055,"~/GoogleDrive/repos/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,1,0,1542350055,"~/GoogleDrive/repos/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,1,0,1542350055,"~/GoogleDrive/repos/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,1,0,1542350055,"~/GoogleDrive/repos/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,1,0,1542350055,"~/GoogleDrive/repos/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,1,0,1542350055,"~/GoogleDrive/repos/NERD_tree_1"
--'  6  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,6,0,1542350050,"~/GoogleDrive/repos/NERD_tree_1"
--'  6  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,6,0,1542350050,"~/GoogleDrive/repos/NERD_tree_1"
--'  6  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,6,0,1542350050,"~/GoogleDrive/repos/NERD_tree_1"
--'  6  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,6,0,1542350050,"~/GoogleDrive/repos/NERD_tree_1"
--'  6  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,6,0,1542350050,"~/GoogleDrive/repos/NERD_tree_1"
--'  6  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,6,0,1542350050,"~/GoogleDrive/repos/NERD_tree_1"
--'  6  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,6,0,1542350050,"~/GoogleDrive/repos/NERD_tree_1"
--'  6  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,6,0,1542350050,"~/GoogleDrive/repos/NERD_tree_1"
--'  45  2  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,45,2,1542349949,"~/GoogleDrive/repos/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,1,0,1542349949,"~/GoogleDrive/repos/NERD_tree_1"
--'  45  2  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,45,2,1542349949,"~/GoogleDrive/repos/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,1,0,1542349949,"~/GoogleDrive/repos/NERD_tree_1"
--'  45  2  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,45,2,1542349949,"~/GoogleDrive/repos/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,1,0,1542349949,"~/GoogleDrive/repos/NERD_tree_1"
--'  45  2  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,45,2,1542349949,"~/GoogleDrive/repos/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,1,0,1542349949,"~/GoogleDrive/repos/NERD_tree_1"
--'  45  2  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,45,2,1542349949,"~/GoogleDrive/repos/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,1,0,1542349949,"~/GoogleDrive/repos/NERD_tree_1"
--'  45  2  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,45,2,1542349949,"~/GoogleDrive/repos/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,1,0,1542349949,"~/GoogleDrive/repos/NERD_tree_1"
--'  45  2  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,45,2,1542349949,"~/GoogleDrive/repos/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,1,0,1542349949,"~/GoogleDrive/repos/NERD_tree_1"
--'  45  2  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,45,2,1542349949,"~/GoogleDrive/repos/NERD_tree_1"
--'  1  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,1,0,1542349949,"~/GoogleDrive/repos/NERD_tree_1"
--'  2  0  /etc/hosts
-|4,39,2,0,1542349947,"/etc/hosts"
--'  2  0  /etc/hosts
-|4,39,2,0,1542349947,"/etc/hosts"
--'  2  0  /etc/hosts
-|4,39,2,0,1542349947,"/etc/hosts"
--'  2  0  /etc/hosts
-|4,39,2,0,1542349947,"/etc/hosts"
--'  6  0  ~/GoogleDrive/repos/NERD_tree_1
-|4,39,6,0,1542349944,"~/GoogleDrive/repos/NERD_tree_1"
+-'  32  9  ~/NERD_tree_1
+|4,39,32,9,1541873970,"~/NERD_tree_1"
+-'  77  2  ~/NERD_tree_1
+|4,39,77,2,1541873958,"~/NERD_tree_1"
+-'  1  8  ~/NERD_tree_1
+|4,39,1,8,1541873958,"~/NERD_tree_1"
+-'  6  0  ~/Downloads/roverhub/NERD_tree_1
+|4,39,6,0,1541233448,"~/Downloads/roverhub/NERD_tree_1"
+-'  10  2  ~/Downloads/roverhub/NERD_tree_1
+|4,39,10,2,1541233328,"~/Downloads/roverhub/NERD_tree_1"
+-'  1  0  ~/Downloads/roverhub/NERD_tree_1
+|4,39,1,0,1541233328,"~/Downloads/roverhub/NERD_tree_1"
+-'  8  6  ~/GoogleDrive/repos/roscamhub/NERD_tree_1
+|4,39,8,6,1541210024,"~/GoogleDrive/repos/roscamhub/NERD_tree_1"
+-'  12  2  ~/GoogleDrive/repos/roscamhub/NERD_tree_1
+|4,39,12,2,1541209970,"~/GoogleDrive/repos/roscamhub/NERD_tree_1"
+-'  1  0  ~/GoogleDrive/repos/roscamhub/NERD_tree_1
+|4,39,1,0,1541209970,"~/GoogleDrive/repos/roscamhub/NERD_tree_1"
+-'  29  6  ~/NERD_tree_1
+|4,39,29,6,1539414592,"~/NERD_tree_1"
+-'  16  17  ~/NERD_tree_1
+|4,39,16,17,1539414507,"~/NERD_tree_1"
+-'  45  2  ~/NERD_tree_1
+|4,39,45,2,1539413969,"~/NERD_tree_1"
+-'  1  13  ~/NERD_tree_1
+|4,39,1,13,1539413969,"~/NERD_tree_1"
+-'  34  13  ~/NERD_tree_1
+|4,39,34,13,1539413945,"~/NERD_tree_1"
+-'  45  2  ~/NERD_tree_1
+|4,39,45,2,1539413886,"~/NERD_tree_1"
+-'  1  13  ~/NERD_tree_1
+|4,39,1,13,1539413886,"~/NERD_tree_1"
+-'  205  0  ~/.vimrc
+|4,39,205,0,1539413869,"~/.vimrc"
+-'  12  0  ~/NERD_tree_1
+|4,39,12,0,1539413865,"~/NERD_tree_1"
+-'  20  2  ~/NERD_tree_1
+|4,39,20,2,1539413738,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1539413738,"~/NERD_tree_1"
+-'  197  0  ~/catkin_ws/src/chittiBot/src/I2Cdev.cpp
+|4,39,197,0,1539413689,"~/catkin_ws/src/chittiBot/src/I2Cdev.cpp"
+-'  16  11  ~/NERD_tree_1
+|4,39,16,11,1539413686,"~/NERD_tree_1"
+-'  45  2  ~/NERD_tree_1
+|4,39,45,2,1539413592,"~/NERD_tree_1"
+-'  1  13  ~/NERD_tree_1
+|4,39,1,13,1539413592,"~/NERD_tree_1"
+-'  50  25  ~/.vimrc
+|4,39,50,25,1539413522,"~/.vimrc"
+-'  53  0  ~/.vimrc
+|4,39,53,0,1539413466,"~/.vimrc"
+-'  53  0  ~/.vimrc
+|4,39,53,0,1539413464,"~/.vimrc"
+-'  53  0  ~/.vimrc
+|4,39,53,0,1539413349,"~/.vimrc"
+-'  52  0  ~/.vimrc
+|4,39,52,0,1539413322,"~/.vimrc"
+-'  52  0  ~/.vimrc
+|4,39,52,0,1539413322,"~/.vimrc"
+-'  52  0  ~/.vimrc
+|4,39,52,0,1539413322,"~/.vimrc"
+-'  8  0  ~/[Plugins]
+|4,39,8,0,1539413320,"~/[Plugins]"
+-'  8  0  ~/[Plugins]
+|4,39,8,0,1539413320,"~/[Plugins]"
+-'  51  0  ~/.vimrc
+|4,39,51,0,1539413199,"~/.vimrc"
+-'  2  0  ~/[Plugins]
+|4,39,2,0,1539413199,"~/[Plugins]"
+-'  5  0  ~/[Plugins]
+|4,39,5,0,1539413199,"~/[Plugins]"
+-'  3  0  ~/[Plugins]
+|4,39,3,0,1539413199,"~/[Plugins]"
+-'  51  0  ~/.vimrc
+|4,39,51,0,1539413199,"~/.vimrc"
+-'  51  0  ~/.vimrc
+|4,39,51,0,1539413199,"~/.vimrc"
+-'  2  0  ~/[Plugins]
+|4,39,2,0,1539413199,"~/[Plugins]"
+-'  5  0  ~/[Plugins]
+|4,39,5,0,1539413199,"~/[Plugins]"
+-'  3  0  ~/[Plugins]
+|4,39,3,0,1539413199,"~/[Plugins]"
+-'  51  0  ~/.vimrc
+|4,39,51,0,1539413199,"~/.vimrc"
+-'  50  0  ~/.vimrc
+|4,39,50,0,1539413174,"~/.vimrc"
+-'  50  0  ~/.vimrc
+|4,39,50,0,1539413174,"~/.vimrc"
+-'  50  0  ~/.vimrc
+|4,39,50,0,1539413174,"~/.vimrc"
+-'  50  0  ~/.vimrc
+|4,39,50,0,1539413172,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1539413074,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1539413074,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1539413074,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1539413074,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1539413074,"~/.vimrc"
+-'  39  0  ~/[Plugins]
+|4,39,39,0,1539412897,"~/[Plugins]"
+-'  1  0  ~/[Plugins]
+|4,39,1,0,1539412897,"~/[Plugins]"
+-'  6  0  ~/[Plugins]
+|4,39,6,0,1539412897,"~/[Plugins]"
+-'  1  0  ~/[Plugins]
+|4,39,1,0,1539412897,"~/[Plugins]"
+-'  6  0  ~/[Plugins]
+|4,39,6,0,1539412897,"~/[Plugins]"
+-'  1  0  ~/[Plugins]
+|4,39,1,0,1539412897,"~/[Plugins]"
+-'  6  0  ~/[Plugins]
+|4,39,6,0,1539412897,"~/[Plugins]"
+-'  1  0  ~/[Plugins]
+|4,39,1,0,1539412897,"~/[Plugins]"
+-'  6  0  ~/[Plugins]
+|4,39,6,0,1539412897,"~/[Plugins]"
+-'  39  0  ~/[Plugins]
+|4,39,39,0,1539412897,"~/[Plugins]"
+-'  1  0  ~/[Plugins]
+|4,39,1,0,1539412897,"~/[Plugins]"
+-'  6  0  ~/[Plugins]
+|4,39,6,0,1539412897,"~/[Plugins]"
+-'  1  0  ~/[Plugins]
+|4,39,1,0,1539412897,"~/[Plugins]"
+-'  6  0  ~/[Plugins]
+|4,39,6,0,1539412897,"~/[Plugins]"
+-'  1  0  ~/[Plugins]
+|4,39,1,0,1539412897,"~/[Plugins]"
+-'  6  0  ~/[Plugins]
+|4,39,6,0,1539412897,"~/[Plugins]"
+-'  1  0  ~/[Plugins]
+|4,39,1,0,1539412897,"~/[Plugins]"
+-'  6  0  ~/[Plugins]
+|4,39,6,0,1539412897,"~/[Plugins]"
+-'  40  0  ~/[Plugins]
+|4,39,40,0,1539412895,"~/[Plugins]"
+-'  7  0  ~/[Plugins]
+|4,39,7,0,1539412895,"~/[Plugins]"
+-'  7  0  ~/[Plugins]
+|4,39,7,0,1539412895,"~/[Plugins]"
+-'  7  0  ~/[Plugins]
+|4,39,7,0,1539412895,"~/[Plugins]"
+-'  7  0  ~/[Plugins]
+|4,39,7,0,1539412895,"~/[Plugins]"
+-'  40  0  ~/[Plugins]
+|4,39,40,0,1539412895,"~/[Plugins]"
+-'  7  0  ~/[Plugins]
+|4,39,7,0,1539412895,"~/[Plugins]"
+-'  7  0  ~/[Plugins]
+|4,39,7,0,1539412895,"~/[Plugins]"
+-'  7  0  ~/[Plugins]
+|4,39,7,0,1539412895,"~/[Plugins]"
+-'  7  0  ~/[Plugins]
+|4,39,7,0,1539412895,"~/[Plugins]"
+-'  36  0  ~/[Plugins]
+|4,39,36,0,1539412890,"~/[Plugins]"
+-'  2  0  ~/[Plugins]
+|4,39,2,0,1539412890,"~/[Plugins]"
+-'  2  0  ~/[Plugins]
+|4,39,2,0,1539412890,"~/[Plugins]"
+-'  2  0  ~/[Plugins]
+|4,39,2,0,1539412890,"~/[Plugins]"
+-'  2  0  ~/[Plugins]
+|4,39,2,0,1539412890,"~/[Plugins]"
+-'  36  0  ~/[Plugins]
+|4,39,36,0,1539412890,"~/[Plugins]"
+-'  2  0  ~/[Plugins]
+|4,39,2,0,1539412890,"~/[Plugins]"
+-'  2  0  ~/[Plugins]
+|4,39,2,0,1539412890,"~/[Plugins]"
+-'  2  0  ~/[Plugins]
+|4,39,2,0,1539412890,"~/[Plugins]"
+-'  2  0  ~/[Plugins]
+|4,39,2,0,1539412890,"~/[Plugins]"
+-'  3  0  ~/[Plugins]
+|4,39,3,0,1539412885,"~/[Plugins]"
+-'  3  0  ~/[Plugins]
+|4,39,3,0,1539412885,"~/[Plugins]"
+-'  3  0  ~/[Plugins]
+|4,39,3,0,1539412885,"~/[Plugins]"
+-'  3  0  ~/[Plugins]
+|4,39,3,0,1539412885,"~/[Plugins]"
+-'  3  0  ~/[Plugins]
+|4,39,3,0,1539412885,"~/[Plugins]"
+-'  3  0  ~/[Plugins]
+|4,39,3,0,1539412885,"~/[Plugins]"
+-'  3  0  ~/[Plugins]
+|4,39,3,0,1539412885,"~/[Plugins]"
+-'  3  0  ~/[Plugins]
+|4,39,3,0,1539412885,"~/[Plugins]"
+-'  19  0  ~/.zshrc
+|4,39,19,0,1539412724,"~/.zshrc"
+-'  19  0  ~/.zshrc
+|4,39,19,0,1539412724,"~/.zshrc"
 
 # History of marks within files (newest to oldest):
-
-> ~/.zshrc
-	*	1542515260	0
-	"	48	34
-	^	48	35
-	.	48	34
-	+	40	29
-	+	40	31
-	+	51	0
-	+	48	34
-
-> ~/GoogleDrive/repos/ros_roverbot/NERD_tree_1
-	*	1542515257	0
-	"	6	0
-	.	1	0
-	+	1	0
-
-> /etc/hosts
-	*	1542514833	0
-	"	5	21
-	^	2	25
-	.	2	24
-	+	2	30
-	+	2	29
-	+	3	0
-	+	12	23
-	+	4	45
-	+	4	127
-	+	4	67
-	+	6	24
-	+	5	0
-	+	8	0
-	+	6	25
-	+	2	24
-
-> /etc/hostname
-	*	1542488585	0
-	"	1	0
-	^	1	15
-	.	1	14
-	+	1	14
-
-> ~/GoogleDrive/repos/NERD_tree_1
-	*	1542350056	0
-	"	6	0
-	.	1	0
-	+	1	0
-
-> ~/Dropbox/Ubuntu Installs/basicinstalls.sh
-	*	1541879628	0
-	"	1	6
-	^	1	7
-	.	1	5
-	+	1	5
-
-> ~/Dropbox/Ubuntu Installs/NERD_tree_1
-	*	1541879615	0
-	"	6	0
-	.	1	0
-	+	1	0
-
-> ~/examples.desktop
-	*	1541878675	0
-	"	7	0
-	^	7	0
-	.	7	0
-	+	7	0
-
-> ~/NERD_tree_1
-	*	1541878674	0
-	"	6	0
-	.	1	0
-	+	1	0
-
-> ~/.vimrc
-	*	1541878631	0
-	"	442	1
-	^	442	12
-	.	442	11
-	+	50	24
-	+	51	27
-	+	109	0
-	+	108	0
-	+	50	25
-	+	198	5
-	+	550	28
-	+	442	11
-
-> ~/Dropbox/vpn/connectvpn.sh
-	*	1541877462	0
-	"	1	0
-	^	1	22
-	.	1	22
-	+	1	22
-
-> ~/Dropbox/vpn/NERD_tree_1
-	*	1541877445	0
-	"	6	0
-	.	1	0
-	+	1	0
 
 > ~/Downloads/roslibjs/examples/fibonacci.html
 	*	1541873969	0
 	"	14	0
 
+> ~/NERD_tree_1
+	*	1541873959	0
+	"	32	9
+	.	1	0
+	+	1	0
+
 > ~/Desktop/IOD.pdf
 	*	1541873943	0
 	"	2	0
+
+> ~/examples.desktop
+	*	1541873929	0
+	"	1	0
 
 > ~/Downloads/roverhub/autoservice_file.txt
 	*	1541233447	0
@@ -412,6 +319,15 @@
 	"	6	0
 	.	1	0
 	+	1	0
+
+> ~/.zshrc
+	*	1541210023	0
+	"	50	0
+	^	52	0
+	.	51	0
+	+	40	29
+	+	40	31
+	+	51	0
 
 > ~/GoogleDrive/repos/roscamhub/NERD_tree_1
 	*	1541209973	0
@@ -429,6 +345,19 @@
 > ~/catkin_ws/src/chittiBot/src/listener.cpp
 	*	1539414237	0
 	"	1	0
+
+> ~/.vimrc
+	*	1539413943	0
+	"	550	28
+	^	550	29
+	.	550	28
+	+	50	24
+	+	51	27
+	+	109	0
+	+	108	0
+	+	50	25
+	+	198	5
+	+	550	28
 
 > ~/catkin_ws/src/CMakeLists.txt
 	*	1539413580	0
